@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "outDir": "./dist",
+      "jsx": "react",                         /* Specify JSX mode */
+      "strict": true,                         /* Enable all strict type-checking options */
+      "esModuleInterop": true,                /* Allow default imports from modules with no default export */
+      "module": "esnext",                     /* Specify module code generation */
+      "moduleResolution": "node",             /* Specify module resolution strategy */
+      // "allowJs": true,                        /* Allow JavaScript files to be compiled */
+      "forceConsistentCasingInFileNames": true /* Ensure consistent casing in file names */
+    },
+    "include": ["src"]                        /* Specify files to include */
+  }
