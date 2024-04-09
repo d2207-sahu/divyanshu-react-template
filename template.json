@@ -1,20 +1,41 @@
 {
-    "package": {
-      "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-icons": "^5.0.1",
-        "react-redux": "^9.1.0",
-        "react-router-dom": "^6.22.3",
-        "react-scripts": "5.0.1",
-        "@reduxjs/toolkit": "^2.2.2"
-      },
-      "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build"
-      },
-      "eslintConfig": {
-        "extends": ["react-app", "react-app/jest"]
-      }
+  "package": {
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^5.0.1",
+      "react-redux": "^9.1.0",
+      "react-router-dom": "^6.22.3",
+      "react-scripts": "5.0.1",
+      "@reduxjs/toolkit": "^2.2.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.75",
+      "@types/react-dom": "^18.2.24",
+      "typescript": "^4.9.5",
+      "tailwindcss": "^3.4.3"
     }
   }
+}
